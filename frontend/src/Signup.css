@@ -1,0 +1,61 @@
+/* Container styling similar to #root */
+.signup-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(150, 150, 150, 0.05);
+  background-color: #f9f9f9; /* soft background to match theme */
+  font-family: Arial, sans-serif;
+}
+
+.signup-container .heading {
+  color: #646cff; 
+}
+
+.signup-container input[type="text"],
+.signup-container input[type="email"] {
+  width: 80%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.signup-container input[type="text"]:focus,
+.signup-container input[type="email"]:focus {
+  border-color: #646cff;
+  outline: none;
+}
+
+.signup-container label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.signup-container button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.signup-container button:hover {
+  background-color: #5356d0;
+  box-shadow: 0 4px 12px rgba(100,108,255,0.4);
+}
+
+/* Small descriptive text */
+.signup-container p {
+  color: #888;
+  margin-bottom: 1.5rem;
+}
